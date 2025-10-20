@@ -1,10 +1,10 @@
 # Sora 2 Streamlit Studio
 > Minimal Streamlit front-end for generating and managing Sora 2 text-to-video jobs.
 
-[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](#quickstart) [![Streamlit](https://img.shields.io/badge/built%20with-Streamlit-ff4b4b.svg)](https://streamlit.io) [![License](https://img.shields.io/badge/license-MIT-brightorange.svg)](#license) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](#quickstart) [![Streamlit](https://img.shields.io/badge/built%20with-Streamlit-ff4b4b.svg)](https://streamlit.io) [![License](https://img.shields.io/badge/license-MIT-orange.svg)](#license) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 ## Demo
-Add `demo.gif` (≤10 MB) to the repository root and it will render here in previews.
+[![Sora 2 demo](demo.gif)](demo.gif)
 
 ## Features
 - Prompt-to-video creation with model, duration, aspect presets, and optional reference image upload.
