@@ -20,7 +20,7 @@
 
 ### Setup
 ```bash
-git clone https://github.com/<your-org>/sora2-streamlit-studio.git
+git clone https://github.com/kspringfield13/sora2-streamlit-studio.git
 cd sora2-streamlit-studio
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ### Configuration
 1. Copy `.env-example` to `.env`
 2. Populate required values:
-   - `OPENAI_API_KEY` (required) – Sora 2 Videos API key
+   - `OPENAI_API_KEY` (required) – OpenAI API key (get here: `https://platform.openai.com/api-keys`)
    - `OPENAI_BASE_URL` (optional) – defaults to `https://api.openai.com/v1`
 
 ### Run Locally
@@ -60,7 +60,6 @@ lib/ui.py             # Reusable Streamlit UI helpers and toast utilities
 pages/create.py       # Prompt composer, submission flow, and result display
 pages/jobs.py         # Jobs dashboard with filtering, polling, and management
 requirements.txt      # Streamlit + OpenAI dependencies
-AGENTS.md             # Internal contributor guidelines for agent workflows
 ```
 
 ## Contributing
