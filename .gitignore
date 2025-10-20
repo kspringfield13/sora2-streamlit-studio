@@ -1,0 +1,10 @@
+# Local environment and credentials
+.env
+.venv/
+.streamlit/secrets.toml
+
+# Python caches
+__pycache__/
+lib/__pycache__
+
+AGENTS.md
